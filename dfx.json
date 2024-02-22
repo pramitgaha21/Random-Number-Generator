@@ -1,6 +1,6 @@
 {
   "canisters": {
-    "random_number_generator_backend": {
+    "generator": {
       "candid": "src/random_number_generator_backend/random_number_generator_backend.did",
       "package": "random_number_generator_backend",
       "type": "rust"

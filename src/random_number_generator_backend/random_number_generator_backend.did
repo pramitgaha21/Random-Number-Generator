@@ -1,3 +1,4 @@
-service : {
-    "greet": (text) -> (text) query;
+service : () -> {
+    generate_random_number: () -> (int32);
+    generate_random_number_between_ranges: (int32, int32) -> (int32);
 }
