@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "random_number_generator_backend": {
+      "candid": "src/random_number_generator_backend/random_number_generator_backend.did",
+      "package": "random_number_generator_backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
